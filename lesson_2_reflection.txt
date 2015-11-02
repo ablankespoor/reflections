@@ -13,3 +13,14 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 	Use the "git diff --staged" to check if the changes are significant 
 	enough between the staged and committed versions.
+
+
+What are some situations when branches would be helpful in keeping your
+history organized?  How would branches help?
+
+	Use "git branch" to see what branch I'm on. 
+	Use "git branch [name of new]" to make a new branch.
+	Use "git checkout [name of desired branch] to start working on it
+	Branches would be useful to test or develop a parallel feature
+	of the code.  Doing work on a branch would ensure the previous 
+	development is not affected.
