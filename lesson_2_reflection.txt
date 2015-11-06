@@ -24,3 +24,18 @@ history organized?  How would branches help?
 	Branches would be useful to test or develop a parallel feature
 	of the code.  Doing work on a branch would ensure the previous 
 	development is not affected.
+
+How do the diagrams help you visualize the branch structure?
+	
+	Use "git log --graph --oneline" to see the visual representation of
+	the git history.  This helps to see the parents of a branch and the
+	parallel development of the repo.
+
+What is the result of merging two branges together?  Why do we represeent it
+in the diagram the way we do?
+
+	Use "git merge " and something about branch 1 and branch 2.  The 
+	result is that the two parallel branches are combined into one.  
+	Git is able to look at the parent paths and intellegently combine
+	the two branches (unless there are conflicts that need to be 
+	manually fixed).
