@@ -1,5 +1,17 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
-         A remote repository would be helpful when multiple computers or programmers
-         will be used or working on a project.  It will also provide a backup of the
-         development.
+	A remote repository would be helpful when multiple computers or 
+	programmers will be used or working on a project.  It will also 
+	provide a backup of the development.
+
+	Notes:
+	to add a remote repo: git remote add origin url
+	to see what url is the remote: git remote -v
+	to upload to GitHub: git push origin master     
+	to update from GitHub: git pull origin master
+
+Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+
+	Doing a manual pull allows one to determine when and where the
+	latest changes will be incorporated.
