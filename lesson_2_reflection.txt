@@ -39,3 +39,19 @@ in the diagram the way we do?
 	Git is able to look at the parent paths and intellegently combine
 	the two branches (unless there are conflicts that need to be 
 	manually fixed).
+
+My Notes:
+To merge on a branch.  First, make sure to be in the branch (git checkout 
+branch).  Then update the branch with any current changes on master 
+(git merge master easy_mode).  If there is a conflict, then go into the 
+file and look for HEAD and MASTER stuff.  Make the changes and resolve 
+the conflic.  Finally, git add and git commit the changes.  Now the
+lastest version of master is merged into the branch, for continued work on
+the branch development.
+
+What are the pros and cons of Git's automatic merging vs always doing the
+merges manually?
+
+	The trade off is between Git making the decision to merge or remove
+	changes to the file.  Git can follow intelegent rules, but sometimes
+	the author has to make the final decision to keep or reject a change.
