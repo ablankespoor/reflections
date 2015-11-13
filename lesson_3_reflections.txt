@@ -15,3 +15,14 @@ automatically stay up-to-date with your remote repository?
 
 	Doing a manual pull allows one to determine when and where the
 	latest changes will be incorporated.
+
+Describe the differences between forks, clones, and branches.  
+
+	A fork is a GitHub feature that allows one to make a copy of a 
+	public repo and do their own development.
+	A clone is a copy of a repo, either on GitHub or local machine.
+	A brance is a separate development path for a local repo.
+
+	Make a fork on GitHub, then it would probably be good to clone
+	that repo to local machine for development:
+	$ git clone [url]
