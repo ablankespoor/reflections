@@ -26,3 +26,21 @@ Describe the differences between forks, clones, and branches.
 	Make a fork on GitHub, then it would probably be good to clone
 	that repo to local machine for development:
 	$ git clone [url]
+
+Notes on merging with conflicts:
+	Say my master and orgin/master (the remote repo) are out of sink
+	and have conflics (changes to the same bit of code).  In the class
+	example, I did a $ git fetch.  This makes a branch on my repo.  Now
+	I would have master and origin/master.  I can do a $ git diff and 
+	see the conflicts and fix them.  Then I $ git add and $ git commit
+	these changes to resolve the conflict.  Finally, I can $ git push 
+	to the orgin/master and save all the changes and fixes.
+
+	The $ git fetch is a good way to pull down the current repo without
+	losing my current changes.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	The benefit is that you have a chance to compare the remote and local
+	versions of the repo and look for conflicts.  Then the conflicts can 
+	resolved and pushed to the origin/master.
