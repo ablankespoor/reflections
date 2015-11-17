@@ -44,3 +44,8 @@ What is the benefit of having a copy of the last known state of the remote store
 	The benefit is that you have a chance to compare the remote and local
 	versions of the repo and look for conflicts.  Then the conflicts can 
 	resolved and pushed to the origin/master.
+
+Notes on config
+	I changed the user.name and user.email in the \reflections directory.
+	I made the changes locally, so the global user.name and user.email
+	are still Adam and adam@peloton-tech.com (I think).
